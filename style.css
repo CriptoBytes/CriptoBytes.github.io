@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    margin-top: 20px;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    height: 30px;
+    top: 0;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: tomato;
+    width: 100%;
+    padding: 5px;
+}
+
+.navdiv:hover{
+    background-color: rgb(65, 54, 52);
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 96vh;
+    background-image: url(2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-width: 100%;
+    background-attachment: fixed;
+}
+
+.maintext {
+    display: flex;
+    padding: 10px;
+    margin-left: 20%;
+    align-items: center;
+}
+
+i {
+   font-size: 2rem;
+   
+ }
+
+.fonticon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    min-width: 50px;
+    min-height: 50px;
+    border-radius: 5px;
+
+}
+
+
+.navdlogo{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    background-color: tomato;
+    width: 100%;
+    padding: 2px;
+}
+
+.navdlogo:hover{
+    background-color: rgb(65, 54, 52);
+}
+
+
+.navdlogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgiconnav{
+    height: 20px;
+    width: auto;
+}
+
+.mainH{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+    font-size: 2rem;
+    max-height: 100px;
+    min-height: 100px
+}
+
+#mainh1 {
+    animation: bitesx 1s infinite linear ;
+}
+
+.mainH span {
+    color:yellow;
+    animation: bitespan 1s infinite linear ;
+}
+
+.maininside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    min-width: 50vw;
+    text-align: center;
+}
+
+
+
+footer{
+    width: 110%;
+    background-color: rgb(255, 174, 0);
+    height: 30px;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgicon{
+    max-height: 70px;
+    width: auto;
+}
+
+.imgiconb{
+    max-height: 60px;
+    width: auto;
+    animation: bit 1s infinite linear;
+}
+
+
+@keyframes bit{
+    form {margin-bottom: 0px;}
+    50% {padding-bottom: 20px;}
+    to {margin-bottom: 0px;}
+}
+
+@keyframes bitesx{
+    form {color: white;}
+    50% {color: rgb(255, 145, 0); }
+    to {color: white;}
+}
+
+@keyframes bitespan{
+    form {color: yellow;  }
+    50% {color: white;}
+    to {color: yellow;  }
+}
+
+
+a{
+    text-decoration: none;
+}
+
+a p:hover{
+    color: rgb(90, 89, 89);
+    transition: 0.3s ease-in;
+}
